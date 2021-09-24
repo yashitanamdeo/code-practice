@@ -4,3 +4,7 @@
 missing_char('kitten', 1) → 'ktten'
 missing_char('kitten', 0) → 'itten'
 missing_char('kitten', 4) → 'kittn' '''
+
+def missing_char(str, n):
+  newString = str[:n] + str[n+1:]
+  return newString
