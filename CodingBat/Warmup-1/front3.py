@@ -4,3 +4,8 @@
 front3('Java') → 'JavJavJav'
 front3('Chocolate') → 'ChoChoCho'
 front3('abc') → 'abcabcabc' '''
+
+def front3(str):
+  front = str[:3]
+  return front*3
+  
