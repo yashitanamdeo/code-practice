@@ -4,3 +4,8 @@
 left2('Hello') → 'lloHe'
 left2('java') → 'vaja'
 left2('Hi') → 'Hi'"""
+
+def left2(str):
+  part1 = str[:2]
+  part2 = str[2:]
+  return part2+part1
