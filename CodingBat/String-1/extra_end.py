@@ -4,3 +4,7 @@
 extra_end('Hello') → 'lololo'
 extra_end('ab') → 'ababab'
 extra_end('Hi') → 'HiHiHi'"""
+
+def extra_end(str):
+  lastChar = str[-2:]
+  return lastChar*3
