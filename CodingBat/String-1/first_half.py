@@ -4,3 +4,7 @@
 first_half('WooHoo') → 'Woo'
 first_half('HelloThere') → 'Hello'
 first_half('abcdef') → 'abc'"""
+
+def first_half(str):
+  mid = len(str)/2
+  return str[:mid]
