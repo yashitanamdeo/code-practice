@@ -9,4 +9,4 @@ def cigar_party(cigars, is_weekend):
   if is_weekend:
       return cigars >= 40
   else:
-    return cigars in range(40,61)
+    return cigars in range(40,61) # cigars >= 40 and cigars <= 60
