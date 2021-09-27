@@ -6,7 +6,7 @@ reverse3([5, 11, 9]) → [9, 11, 5]
 reverse3([7, 0, 0]) → [0, 0, 7]'''
 
 def reverse3(nums):
-  return nums[::-1]
+  return nums[::-1] #python reverse indexing
 
 # Alternate way
 def reverse3(nums):
