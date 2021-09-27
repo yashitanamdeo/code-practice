@@ -10,5 +10,5 @@ def reverse3(nums):
 
 # Alternate way
 def reverse3(nums):
-  nums.reverse()
+  nums.reverse() #python reverse method
   return nums
