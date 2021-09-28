@@ -8,3 +8,6 @@ near_ten(19) → True'''
 def near_ten(num):
   return (num % 10 == 0) or ((num-2) % 10 == 0) or ((num+2) % 10 == 0) or ((num-1) % 10 == 0) or ((num+1) % 10 == 0)
   
+# Alternate way
+def near_ten(num):
+  return (num%10==0) or (num%10==1) or (num%10==2) or (num%10==9) or (num%10==8)
