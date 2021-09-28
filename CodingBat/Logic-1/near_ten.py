@@ -4,3 +4,7 @@
 near_ten(12) → True
 near_ten(17) → False
 near_ten(19) → True'''
+
+def near_ten(num):
+  return (num % 10 == 0) or ((num-2) % 10 == 0) or ((num+2) % 10 == 0) or ((num-1) % 10 == 0) or ((num+1) % 10 == 0)
+  
