@@ -4,3 +4,14 @@
 lucky_sum(1, 2, 3) → 6
 lucky_sum(1, 2, 13) → 3
 lucky_sum(1, 13, 3) → 1'''
+
+
+def lucky_sum(a, b, c):
+  value = [a,b,c]
+  sum = 0
+  for i in value:
+    if i == 13:
+      return sum
+    else:
+      sum += i
+  return sum
