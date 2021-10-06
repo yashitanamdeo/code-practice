@@ -4,3 +4,16 @@
 no_teen_sum(1, 2, 3) → 6
 no_teen_sum(2, 13, 1) → 3
 no_teen_sum(2, 1, 14) → 3'''
+
+def no_teen_sum(a, b, c):
+  value = [a,b,c]
+  sum = 0
+  for i in value:
+    if i in range(13,20):
+      if i == 15 or i == 16:
+        sum += i
+      else:
+        pass
+    else:
+      sum += i
+  return sum
