@@ -4,3 +4,14 @@
 make_chocolate(4, 1, 9) → 4
 make_chocolate(4, 1, 10) → -1
 make_chocolate(4, 1, 7) → 2'''
+
+def make_chocolate(small, big, goal):
+    if goal >= 5 * big:
+        remainder = goal - 5 * big
+    else:
+        remainder = goal % 5
+        
+    if remainder <= small:
+        return remainder
+        
+    return -1
