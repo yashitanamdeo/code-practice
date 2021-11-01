@@ -4,3 +4,6 @@
 xyz_there('abcxyz') → True
 xyz_there('abc.xyz') → False
 xyz_there('xyz.abc') → True'''
+
+def xyz_there(str):
+  return str.count('xyz') != str.count('.xyz')
