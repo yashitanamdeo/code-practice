@@ -1,6 +1,6 @@
 # Problem Statement: https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
 
-# Iterative Way
+# Iterative Way - Complexity: O(n)
 def Iterative_reverse(array):
     start = 0
     end = len(array) - 1
@@ -19,3 +19,12 @@ def Iterative_reverse(array):
 
 array = [1,2,3,4]
 print(Iterative_reverse(array))
+
+
+
+# Python List slicing - Complexity: O(1)
+def Slicing_reverse(array):
+    return(array[::-1])
+
+array = [1,2,3,4,5,6,7,8,9,10]
+print(Slicing_reverse(array))
