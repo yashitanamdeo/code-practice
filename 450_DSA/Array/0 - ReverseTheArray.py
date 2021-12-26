@@ -4,11 +4,14 @@
 def Iterative_reverse(array):
     start = 0
     end = len(array) - 1
-    print(end)
+
     while start < end:
-        temp = array[start]
+        #traditional swapping
+        """ temp = array[start]
         array[start] = array[end]
-        array[end] = temp
+        array[end] = temp """
+
+        array[start],array[end] = array[end], array[start] #python swapping
 
         start += 1
         end -= 1
